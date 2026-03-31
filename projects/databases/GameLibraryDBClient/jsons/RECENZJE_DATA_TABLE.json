@@ -1,0 +1,614 @@
+{
+    "results": [
+        {
+            "columns": [
+                {
+                    "name": "ID",
+                    "type": "NUMBER"
+                },
+                {
+                    "name": "OCENA",
+                    "type": "NUMBER"
+                },
+                {
+                    "name": "TRESC",
+                    "type": "VARCHAR2"
+                },
+                {
+                    "name": "ID_GRY",
+                    "type": "NUMBER"
+                }
+            ],
+            "items": [
+                {
+                    "id": 1,
+                    "ocena": 9,
+                    "tresc": "Świetna gra, niesamowity świat i fabuła!",
+                    "id_gry": 1
+                },
+                {
+                    "id": 2,
+                    "ocena": 8,
+                    "tresc": "Bardzo dobra, ale nieco powtarzalna.",
+                    "id_gry": 1
+                },
+                {
+                    "id": 3,
+                    "ocena": 7,
+                    "tresc": "Bardzo podobne do poprzednich wersji, ale nadal świetna zabawa.",
+                    "id_gry": 2
+                },
+                {
+                    "id": 4,
+                    "ocena": 6,
+                    "tresc": "Zbyt dużo mikrotransakcji, ale graficznie ładna.",
+                    "id_gry": 2
+                },
+                {
+                    "id": 5,
+                    "ocena": 8,
+                    "tresc": "Solidna kontynuacja, wciągająca fabuła i świetna grafika.",
+                    "id_gry": 3
+                },
+                {
+                    "id": 6,
+                    "ocena": 7,
+                    "tresc": "Mechanika gry nieco przestarzała, ale nadal dobra.",
+                    "id_gry": 3
+                },
+                {
+                    "id": 7,
+                    "ocena": 8,
+                    "tresc": "Otwarte środowisko i przyjemna zabawa, ale historia mogła być lepsza.",
+                    "id_gry": 4
+                },
+                {
+                    "id": 8,
+                    "ocena": 9,
+                    "tresc": "Piękny świat, pełno aktywności do wykonania!",
+                    "id_gry": 4
+                },
+                {
+                    "id": 9,
+                    "ocena": 9,
+                    "tresc": "Wciągająca historia i przepiękna grafika.",
+                    "id_gry": 5
+                },
+                {
+                    "id": 10,
+                    "ocena": 8,
+                    "tresc": "Zdecydowanie polecam, ale wymaga lepszego optymalizowania na PC.",
+                    "id_gry": 5
+                },
+                {
+                    "id": 11,
+                    "ocena": 10,
+                    "tresc": "Jedna z najlepszych gier, jakie kiedykolwiek grałem.",
+                    "id_gry": 6
+                },
+                {
+                    "id": 12,
+                    "ocena": 8,
+                    "tresc": "Klimatyczna, ale zbyt długa.",
+                    "id_gry": 6
+                },
+                {
+                    "id": 13,
+                    "ocena": 8,
+                    "tresc": "Szybka zabawa i świetna ściganka!",
+                    "id_gry": 7
+                },
+                {
+                    "id": 14,
+                    "ocena": 7,
+                    "tresc": "Wspaniała grafika, ale rozgrywka dość przewidywalna.",
+                    "id_gry": 7
+                },
+                {
+                    "id": 15,
+                    "ocena": 7,
+                    "tresc": "Bardzo przyjemna gra, choć nieco staromodna.",
+                    "id_gry": 8
+                },
+                {
+                    "id": 16,
+                    "ocena": 8,
+                    "tresc": "Wciągająca historia, ale trochę za mało innowacji.",
+                    "id_gry": 8
+                },
+                {
+                    "id": 17,
+                    "ocena": 10,
+                    "tresc": "Świetny tytuł z niesamowitymi bossami i dużą ilością grindu.",
+                    "id_gry": 9
+                },
+                {
+                    "id": 18,
+                    "ocena": 9,
+                    "tresc": "Niezwykle zabawne, ale może być przytłaczające dla nowych graczy.",
+                    "id_gry": 9
+                },
+                {
+                    "id": 19,
+                    "ocena": 9,
+                    "tresc": "Wspaniała przygoda w uniwersum Star Wars, grafika na najwyższym poziomie.",
+                    "id_gry": 10
+                },
+                {
+                    "id": 20,
+                    "ocena": 8,
+                    "tresc": "Fajna gra, ale nieco za krótka.",
+                    "id_gry": 10
+                },
+                {
+                    "id": 21,
+                    "ocena": 8,
+                    "tresc": "Dobra zabawa, ale wciąż zbyt wiele błędów.",
+                    "id_gry": 11
+                },
+                {
+                    "id": 22,
+                    "ocena": 9,
+                    "tresc": "Zabawa na godzinami, świetna grafika i mechanika.",
+                    "id_gry": 11
+                },
+                {
+                    "id": 23,
+                    "ocena": 7,
+                    "tresc": "Dla fanów NFL, gra jest świetna, ale reszta graczy może się nudzić.",
+                    "id_gry": 12
+                },
+                {
+                    "id": 24,
+                    "ocena": 8,
+                    "tresc": "Dobrze odwzorowuje mecze NFL, ale brak innowacji.",
+                    "id_gry": 12
+                },
+                {
+                    "id": 25,
+                    "ocena": 8,
+                    "tresc": "Wciągająca fabuła i świetna zabawa w otwartym świecie.",
+                    "id_gry": 13
+                },
+                {
+                    "id": 26,
+                    "ocena": 7,
+                    "tresc": "Graficznie dobra, ale nieco powtarzalna.",
+                    "id_gry": 13
+                },
+                {
+                    "id": 27,
+                    "ocena": 9,
+                    "tresc": "Bardzo zabawna, świetna rozgrywka i humor.",
+                    "id_gry": 14
+                },
+                {
+                    "id": 28,
+                    "ocena": 8,
+                    "tresc": "Zabawne, ale fabuła mogła być lepsza.",
+                    "id_gry": 14
+                },
+                {
+                    "id": 29,
+                    "ocena": 10,
+                    "tresc": "Jedna z najlepszych gier akcji, która wymaga cierpliwości i umiejętności.",
+                    "id_gry": 15
+                },
+                {
+                    "id": 30,
+                    "ocena": 9,
+                    "tresc": "Bardzo trudna, ale wciągająca. Dla fanów wyzwań!",
+                    "id_gry": 15
+                },
+                {
+                    "id": 31,
+                    "ocena": 9,
+                    "tresc": "Wspaniała gra RPG z ciekawą fabułą i bardzo dobrym humorem.",
+                    "id_gry": 16
+                },
+                {
+                    "id": 32,
+                    "ocena": 8,
+                    "tresc": "Gra zbyt krótka, ale świetna zabawa.",
+                    "id_gry": 16
+                },
+                {
+                    "id": 33,
+                    "ocena": 9,
+                    "tresc": "Świetna grafika i wciągająca fabuła.",
+                    "id_gry": 17
+                },
+                {
+                    "id": 34,
+                    "ocena": 8,
+                    "tresc": "Bardzo dobry klimat, ale miejscami mechanika może rozczarować.",
+                    "id_gry": 17
+                },
+                {
+                    "id": 35,
+                    "ocena": 7,
+                    "tresc": "Dla fanów Naruto, bardzo dobra gra, ale nieco za mało innowacji.",
+                    "id_gry": 18
+                },
+                {
+                    "id": 36,
+                    "ocena": 8,
+                    "tresc": "Dobre, ale mogłoby być więcej postaci i historii.",
+                    "id_gry": 18
+                },
+                {
+                    "id": 37,
+                    "ocena": 8,
+                    "tresc": "Wspaniała gra RPG z interesującymi postaciami.",
+                    "id_gry": 19
+                },
+                {
+                    "id": 38,
+                    "ocena": 9,
+                    "tresc": "Świetna zabawa z naprawdę bogatym światem.",
+                    "id_gry": 19
+                },
+                {
+                    "id": 39,
+                    "ocena": 9,
+                    "tresc": "Świetne, klasyczne RPG z genialnym światem i postaciami.",
+                    "id_gry": 20
+                },
+                {
+                    "id": 40,
+                    "ocena": 8,
+                    "tresc": "Fajna gra, ale miejscami za dużo powtarzalnych zadań.",
+                    "id_gry": 20
+                },
+                {
+                    "id": 41,
+                    "ocena": 8,
+                    "tresc": "Dynamiczna gra, ale czasami zdarzają się błędy serwerowe.",
+                    "id_gry": 21
+                },
+                {
+                    "id": 42,
+                    "ocena": 9,
+                    "tresc": "Bardzo dobra gra, która przyciąga na długie godziny.",
+                    "id_gry": 21
+                },
+                {
+                    "id": 43,
+                    "ocena": 10,
+                    "tresc": "Niesamowita gra, prawdziwe arcydzieło w otwartym świecie.",
+                    "id_gry": 22
+                },
+                {
+                    "id": 44,
+                    "ocena": 9,
+                    "tresc": "Piękny, ale długa kampania.",
+                    "id_gry": 22
+                },
+                {
+                    "id": 45,
+                    "ocena": 7,
+                    "tresc": "Gra wciąż popularna, ale stale się zmienia.",
+                    "id_gry": 23
+                },
+                {
+                    "id": 46,
+                    "ocena": 6,
+                    "tresc": "Gra zbyt uzależniająca, nie ma większych innowacji.",
+                    "id_gry": 23
+                },
+                {
+                    "id": 47,
+                    "ocena": 10,
+                    "tresc": "Bez wątpienia najlepsza gra RPG, którą można zagrać!",
+                    "id_gry": 24
+                },
+                {
+                    "id": 48,
+                    "ocena": 9,
+                    "tresc": "Zajmuje dużo czasu, ale warto.",
+                    "id_gry": 24
+                },
+                {
+                    "id": 49,
+                    "ocena": 10,
+                    "tresc": "Klasyka gatunku, wciągająca na wiele godzin.",
+                    "id_gry": 25
+                },
+                {
+                    "id": 50,
+                    "ocena": 9,
+                    "tresc": "Bardzo długa gra, pełna przygód, ale czasami ma swoje problemy techniczne.",
+                    "id_gry": 25
+                },
+                {
+                    "id": 51,
+                    "ocena": 8,
+                    "tresc": "Odświeżona wersja z nową mechaniką, bardzo fajna.",
+                    "id_gry": 26
+                },
+                {
+                    "id": 52,
+                    "ocena": 7,
+                    "tresc": "Klimatyczna gra, ale miejscami nużąca.",
+                    "id_gry": 26
+                },
+                {
+                    "id": 53,
+                    "ocena": 9,
+                    "tresc": "Perfekcyjnie zaplanowane misje, naprawdę dobrze zaprojektowane lokacje.",
+                    "id_gry": 27
+                },
+                {
+                    "id": 54,
+                    "ocena": 8,
+                    "tresc": "Fajna gra, ale miejscami przewidywalna.",
+                    "id_gry": 27
+                },
+                {
+                    "id": 55,
+                    "ocena": 10,
+                    "tresc": "Genialna gra, która przyciąga na długie godziny!",
+                    "id_gry": 28
+                },
+                {
+                    "id": 56,
+                    "ocena": 9,
+                    "tresc": "Wciągająca historia, ale mogłoby być więcej misji pobocznych.",
+                    "id_gry": 28
+                },
+                {
+                    "id": 57,
+                    "ocena": 9,
+                    "tresc": "Świetna gra drużynowa, idealna dla fanów FPS.",
+                    "id_gry": 29
+                },
+                {
+                    "id": 58,
+                    "ocena": 8,
+                    "tresc": "Zabawa na godzinami, ale balans w drużynach czasem bywa problematyczny.",
+                    "id_gry": 29
+                },
+                {
+                    "id": 59,
+                    "ocena": 9,
+                    "tresc": "Wielka przygoda w starożytnej Grecji, mnóstwo godzin zabawy.",
+                    "id_gry": 30
+                },
+                {
+                    "id": 60,
+                    "ocena": 8,
+                    "tresc": "Długa gra, zbyt wiele powtarzalnych zadań.",
+                    "id_gry": 30
+                },
+                {
+                    "id": 61,
+                    "ocena": 9.5,
+                    "tresc": "Niesamowita VR-owa przygoda, grafika i mechanika na najwyższym poziomie!",
+                    "id_gry": 31
+                },
+                {
+                    "id": 62,
+                    "ocena": 8,
+                    "tresc": "Wciągająca gra, ale VR może być nie dla każdego.",
+                    "id_gry": 31
+                },
+                {
+                    "id": 63,
+                    "ocena": 10,
+                    "tresc": "Najlepsza gra roku, przełomowa fabuła i emocje.",
+                    "id_gry": 32
+                },
+                {
+                    "id": 64,
+                    "ocena": 9,
+                    "tresc": "Piękna opowieść, ale niektóre decyzje fabularne budzą kontrowersje.",
+                    "id_gry": 32
+                },
+                {
+                    "id": 65,
+                    "ocena": 8.5,
+                    "tresc": "Dynamika gry i akcja na najwyższym poziomie, ale wymaga sporo czasu na naukę.",
+                    "id_gry": 33
+                },
+                {
+                    "id": 66,
+                    "ocena": 9,
+                    "tresc": "Wciągająca, świetna gra drużynowa, ale wymaga cierpliwości.",
+                    "id_gry": 33
+                },
+                {
+                    "id": 67,
+                    "ocena": 7.5,
+                    "tresc": "Gra jest świetna w wielu aspektach, ale techniczne błędy psują zabawę.",
+                    "id_gry": 34
+                },
+                {
+                    "id": 68,
+                    "ocena": 9,
+                    "tresc": "Niesamowity świat, fabuła i postacie, jednak grywalność bywa zakłócona.",
+                    "id_gry": 34
+                },
+                {
+                    "id": 69,
+                    "ocena": 10,
+                    "tresc": "Po prostu arcydzieło, fantastyczny świat i historia.",
+                    "id_gry": 35
+                },
+                {
+                    "id": 70,
+                    "ocena": 9,
+                    "tresc": "Piękna gra, ale bardzo długa, co nie każdemu pasuje.",
+                    "id_gry": 35
+                },
+                {
+                    "id": 71,
+                    "ocena": 8,
+                    "tresc": "Świetna zabawa z przyjaciółmi, ale bardzo trudna.",
+                    "id_gry": 36
+                },
+                {
+                    "id": 72,
+                    "ocena": 7,
+                    "tresc": "Zabawa na krótkie sesje, ale zbyt łatwo się nudzi.",
+                    "id_gry": 36
+                },
+                {
+                    "id": 73,
+                    "ocena": 9,
+                    "tresc": "Wciągająca gra, mnóstwo godzin zabawy z potworami.",
+                    "id_gry": 37
+                },
+                {
+                    "id": 74,
+                    "ocena": 8.5,
+                    "tresc": "Gra oferuje świetną zabawę, ale grind może być nużący.",
+                    "id_gry": 37
+                },
+                {
+                    "id": 75,
+                    "ocena": 10,
+                    "tresc": "Bez wątpienia najlepsza gra RPG, którą można zagrać!",
+                    "id_gry": 38
+                },
+                {
+                    "id": 76,
+                    "ocena": 9,
+                    "tresc": "Zajmuje dużo czasu, ale warto każdą minutę.",
+                    "id_gry": 38
+                },
+                {
+                    "id": 77,
+                    "ocena": 9,
+                    "tresc": "Świetna zabawa z Mario, świetna mechanika i koloryt gry!",
+                    "id_gry": 39
+                },
+                {
+                    "id": 78,
+                    "ocena": 8.5,
+                    "tresc": "Niezła gra, ale momentami za łatwa.",
+                    "id_gry": 39
+                },
+                {
+                    "id": 79,
+                    "ocena": 10,
+                    "tresc": "Genialna przygoda w pełnym otwartym świecie.",
+                    "id_gry": 40
+                },
+                {
+                    "id": 80,
+                    "ocena": 9,
+                    "tresc": "Zdecydowanie jedna z najlepszych gier, ale czasami można się zgubić.",
+                    "id_gry": 40
+                },
+                {
+                    "id": 81,
+                    "ocena": 8.5,
+                    "tresc": "Świetna gra na imprezy, ale momentami zbyt chaotyczna.",
+                    "id_gry": 41
+                },
+                {
+                    "id": 82,
+                    "ocena": 7,
+                    "tresc": "Dobre, ale może szybko nudzić, jeśli gra się za długo.",
+                    "id_gry": 41
+                },
+                {
+                    "id": 83,
+                    "ocena": 9,
+                    "tresc": "Znakomita gra, mnóstwo do zrobienia w tym ogromnym świecie.",
+                    "id_gry": 42
+                },
+                {
+                    "id": 84,
+                    "ocena": 8.5,
+                    "tresc": "Wciągająca, ale już trochę przestarzała.",
+                    "id_gry": 42
+                },
+                {
+                    "id": 85,
+                    "ocena": 8.5,
+                    "tresc": "Ciekawa fabuła, świetna atmosfera, ale optymalizacja wymaga poprawek.",
+                    "id_gry": 43
+                },
+                {
+                    "id": 86,
+                    "ocena": 9,
+                    "tresc": "Świetny tytuł z fantastycznym światem.",
+                    "id_gry": 43
+                },
+                {
+                    "id": 87,
+                    "ocena": 9,
+                    "tresc": "Strasznie dobra gra, super klimat i fabuła.",
+                    "id_gry": 44
+                },
+                {
+                    "id": 88,
+                    "ocena": 8.5,
+                    "tresc": "Wciągająca gra, ale rozgrywka jest nieco krótka.",
+                    "id_gry": 44
+                },
+                {
+                    "id": 89,
+                    "ocena": 9.5,
+                    "tresc": "Świetna gra, misje wymagają dużej precyzji i pomysłowości.",
+                    "id_gry": 45
+                },
+                {
+                    "id": 90,
+                    "ocena": 9,
+                    "tresc": "Perfekcyjnie zaplanowane misje, z dobrze zaprojektowanymi lokacjami.",
+                    "id_gry": 45
+                },
+                {
+                    "id": 91,
+                    "ocena": 9,
+                    "tresc": "Urocza, spokojna gra, idealna do relaksu.",
+                    "id_gry": 46
+                },
+                {
+                    "id": 92,
+                    "ocena": 8,
+                    "tresc": "Gra idealna na odstresowanie, ale nieco za powtarzalna.",
+                    "id_gry": 46
+                },
+                {
+                    "id": 93,
+                    "ocena": 10,
+                    "tresc": "Jedna z najlepszych gier akcji, wyzwań jest naprawdę sporo!",
+                    "id_gry": 47
+                },
+                {
+                    "id": 94,
+                    "ocena": 9,
+                    "tresc": "Dla prawdziwych fanów trudnych gier, naprawdę satysfakcjonująca rozgrywka.",
+                    "id_gry": 47
+                },
+                {
+                    "id": 95,
+                    "ocena": 8,
+                    "tresc": "Bardzo fajna gra drużynowa, idealna na szybkie sesje.",
+                    "id_gry": 48
+                },
+                {
+                    "id": 96,
+                    "ocena": 7.5,
+                    "tresc": "Gra jest świetna, ale wymaga dużo czasu na naukę sterowania.",
+                    "id_gry": 48
+                },
+                {
+                    "id": 97,
+                    "ocena": 9.5,
+                    "tresc": "Wspaniała gra, odświeżona wersja klasyka z niesamowitymi efektami wizualnymi.",
+                    "id_gry": 49
+                },
+                {
+                    "id": 98,
+                    "ocena": 9,
+                    "tresc": "Wciągająca fabuła, piękna oprawa graficzna, ale trochę za krótka.",
+                    "id_gry": 49
+                }
+            ]
+        }
+    ]
+}

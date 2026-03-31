@@ -1,0 +1,43 @@
+﻿<Page x:Class="GameLibraryDBClient.MainMenu.Pages.GamesGenrePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GameLibraryDBClient.MainMenu.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="600"
+      Title="GamesGenrePage">
+
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Height="30" Width="600" Name="AddGameGenre" Click="AddGameGenre_Click" >Add Game-Genre</Button>
+        </StackPanel>
+        <ScrollViewer Height="350" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <ListView Name="GameGenreListView" MouseDoubleClick="ListView_MouseDoubleClick">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Nazwa Gry" DisplayMemberBinding="{Binding GameName}" Width="250" />
+                        <GridViewColumn Header="Nazwa Gatunku" DisplayMemberBinding="{Binding GenreName}" Width="250" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </ScrollViewer>
+        <Popup Name="AddPopup" Placement="Mouse" StaysOpen="False" VerticalOffset="10" HorizontalOffset="10">
+            <Border Background="LightYellow" BorderBrush="Black" BorderThickness="1" Padding="10">
+                <StackPanel>
+                    <Label  Content="ID GRY: " Margin="0,0,0,10"/>
+                    <TextBox x:Name="GameID"/>
+                    <TextBlock/>
+                    <Label  Content="ID GATUNKU: " Margin="0,0,0,10"/>
+                    <TextBox x:Name="GenreID"/>
+                    <TextBlock/>
+                    <TextBlock/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Add" Width="75" HorizontalAlignment="Right"  Click="SubmitAddBTN_Click" />
+                        <Button Content="Cancle" Width="75" HorizontalAlignment="Right" Click="CancelAddBTN_Click" />
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+    </StackPanel>
+</Page>

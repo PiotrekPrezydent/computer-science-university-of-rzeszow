@@ -1,0 +1,34 @@
+﻿<Window x:Class="GameLibraryDBClient.MainMenu.Pages.SubPages.AddGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLibraryDBClient.MainMenu.Pages.SubPages"
+        mc:Ignorable="d"
+        Title="AddGameWindow" Height="350" Width="400">
+    <StackPanel>
+        <Label Content="Nazwa"/>
+        <TextBox x:Name="Name" />
+
+        <Label Content="DataWydania"/>
+        <TextBox x:Name="ReleaseDate"/>
+
+        <Label Content="Cena"/>
+        <TextBox x:Name="Price"/>
+
+        <Label Content="ID Autora"/>
+        <TextBox x:Name="AuthorID"/>
+
+        <Label Content="ID Wydawcy"/>
+        <TextBox x:Name="PublisherID"/>
+
+        <Label Content="Ilość sprzedanych kopi"/>
+        <TextBox x:Name="SoldCopies"/>
+        
+        <TextBlock/>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="AddBTN" Width="200" Click="AddBTN_Click">ADD</Button>
+            <Button x:Name="CancelBTN" Width="200" Click="CancelBTN_Click">CANCEL</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

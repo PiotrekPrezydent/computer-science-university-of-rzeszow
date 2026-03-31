@@ -1,0 +1,479 @@
+{
+    "results": [
+        {
+            "columns": [
+                {
+                    "name": "ID",
+                    "type": "NUMBER"
+                },
+                {
+                    "name": "TYTUL",
+                    "type": "VARCHAR2"
+                },
+                {
+                    "name": "DATA_WYDANIA",
+                    "type": "DATE"
+                },
+                {
+                    "name": "CENA",
+                    "type": "NUMBER"
+                },
+                {
+                    "name": "ID_TWORCY",
+                    "type": "NUMBER"
+                },
+                {
+                    "name": "ID_WYDAWCY",
+                    "type": "NUMBER"
+                },
+                {
+                    "name": "ILOSC_SPRZEDANYCH_KOPI",
+                    "type": "NUMBER"
+                }
+            ],
+            "items": [
+                {
+                    "id": 1,
+                    "tytul": "The Witcher 3: Wild Hunt",
+                    "data_wydania": "15\/05\/19",
+                    "cena": 53.99,
+                    "id_tworcy": 1,
+                    "id_wydawcy": 1,
+                    "ilosc_sprzedanych_kopi": 20000000
+                },
+                {
+                    "id": 2,
+                    "tytul": "Cyberpunk 2077",
+                    "data_wydania": "20\/12\/10",
+                    "cena": 49.99,
+                    "id_tworcy": 1,
+                    "id_wydawcy": 2,
+                    "ilosc_sprzedanych_kopi": 15000000
+                },
+                {
+                    "id": 3,
+                    "tytul": "Grand Theft Auto V",
+                    "data_wydania": "13\/09\/18",
+                    "cena": 39.99,
+                    "id_tworcy": 2,
+                    "id_wydawcy": 3,
+                    "ilosc_sprzedanych_kopi": 150000000
+                },
+                {
+                    "id": 4,
+                    "tytul": "Red Dead Redemption 2",
+                    "data_wydania": "18\/10\/26",
+                    "cena": 59.99,
+                    "id_tworcy": 3,
+                    "id_wydawcy": 4,
+                    "ilosc_sprzedanych_kopi": 50000000
+                },
+                {
+                    "id": 5,
+                    "tytul": "The Elder Scrolls V: Skyrim",
+                    "data_wydania": "11\/11\/11",
+                    "cena": 29.99,
+                    "id_tworcy": 4,
+                    "id_wydawcy": 5,
+                    "ilosc_sprzedanych_kopi": 40000000
+                },
+                {
+                    "id": 6,
+                    "tytul": "Horizon Zero Dawn",
+                    "data_wydania": "17\/02\/28",
+                    "cena": 49.99,
+                    "id_tworcy": 5,
+                    "id_wydawcy": 6,
+                    "ilosc_sprzedanych_kopi": 12000000
+                },
+                {
+                    "id": 7,
+                    "tytul": "Ghost of Tsushima",
+                    "data_wydania": "20\/07\/17",
+                    "cena": 59.99,
+                    "id_tworcy": 6,
+                    "id_wydawcy": 7,
+                    "ilosc_sprzedanych_kopi": 10000000
+                },
+                {
+                    "id": 8,
+                    "tytul": "Spider-Man: Miles Morales",
+                    "data_wydania": "20\/11\/12",
+                    "cena": 49.99,
+                    "id_tworcy": 7,
+                    "id_wydawcy": 8,
+                    "ilosc_sprzedanych_kopi": 7000000
+                },
+                {
+                    "id": 9,
+                    "tytul": "Animal Crossing: New Horizons",
+                    "data_wydania": "20\/03\/20",
+                    "cena": 59.99,
+                    "id_tworcy": 8,
+                    "id_wydawcy": 9,
+                    "ilosc_sprzedanych_kopi": 40000000
+                },
+                {
+                    "id": 10,
+                    "tytul": "Mario Kart 8 Deluxe",
+                    "data_wydania": "17\/04\/28",
+                    "cena": 59.99,
+                    "id_tworcy": 9,
+                    "id_wydawcy": 10,
+                    "ilosc_sprzedanych_kopi": 37000000
+                },
+                {
+                    "id": 11,
+                    "tytul": "The Legend of Zelda: Breath of the Wild",
+                    "data_wydania": "17\/03\/03",
+                    "cena": 59.99,
+                    "id_tworcy": 10,
+                    "id_wydawcy": 11,
+                    "ilosc_sprzedanych_kopi": 25000000
+                },
+                {
+                    "id": 12,
+                    "tytul": "Fortnite",
+                    "data_wydania": "17\/07\/25",
+                    "cena": 0,
+                    "id_tworcy": 11,
+                    "id_wydawcy": 12,
+                    "ilosc_sprzedanych_kopi": 400000000
+                },
+                {
+                    "id": 13,
+                    "tytul": "Minecraft",
+                    "data_wydania": "11\/11\/18",
+                    "cena": 26.95,
+                    "id_tworcy": 12,
+                    "id_wydawcy": 13,
+                    "ilosc_sprzedanych_kopi": 250000000
+                },
+                {
+                    "id": 14,
+                    "tytul": "Overwatch",
+                    "data_wydania": "16\/05\/24",
+                    "cena": 39.99,
+                    "id_tworcy": 13,
+                    "id_wydawcy": 14,
+                    "ilosc_sprzedanych_kopi": 60000000
+                },
+                {
+                    "id": 15,
+                    "tytul": "Battlefield V",
+                    "data_wydania": "18\/11\/20",
+                    "cena": 59.99,
+                    "id_tworcy": 14,
+                    "id_wydawcy": 15,
+                    "ilosc_sprzedanych_kopi": 15000000
+                },
+                {
+                    "id": 16,
+                    "tytul": "Call of Duty: Modern Warfare",
+                    "data_wydania": "19\/10\/25",
+                    "cena": 59.99,
+                    "id_tworcy": 15,
+                    "id_wydawcy": 16,
+                    "ilosc_sprzedanych_kopi": 35000000
+                },
+                {
+                    "id": 17,
+                    "tytul": "Apex Legends",
+                    "data_wydania": "19\/02\/04",
+                    "cena": 0,
+                    "id_tworcy": 16,
+                    "id_wydawcy": 17,
+                    "ilosc_sprzedanych_kopi": 60000000
+                },
+                {
+                    "id": 18,
+                    "tytul": "Destiny 2",
+                    "data_wydania": "17\/09\/06",
+                    "cena": 39.99,
+                    "id_tworcy": 17,
+                    "id_wydawcy": 18,
+                    "ilosc_sprzedanych_kopi": 25000000
+                },
+                {
+                    "id": 19,
+                    "tytul": "Sea of Thieves",
+                    "data_wydania": "18\/03\/20",
+                    "cena": 39.99,
+                    "id_tworcy": 18,
+                    "id_wydawcy": 19,
+                    "ilosc_sprzedanych_kopi": 18000000
+                },
+                {
+                    "id": 20,
+                    "tytul": "Fallout 4",
+                    "data_wydania": "15\/11\/10",
+                    "cena": 59.99,
+                    "id_tworcy": 19,
+                    "id_wydawcy": 20,
+                    "ilosc_sprzedanych_kopi": 140000000
+                },
+                {
+                    "id": 21,
+                    "tytul": "The Division 2",
+                    "data_wydania": "19\/03\/15",
+                    "cena": 59.99,
+                    "id_tworcy": 20,
+                    "id_wydawcy": 21,
+                    "ilosc_sprzedanych_kopi": 12000000
+                },
+                {
+                    "id": 22,
+                    "tytul": "Kingdom Come: Deliverance",
+                    "data_wydania": "18\/02\/13",
+                    "cena": 49.99,
+                    "id_tworcy": 21,
+                    "id_wydawcy": 22,
+                    "ilosc_sprzedanych_kopi": 4000000
+                },
+                {
+                    "id": 23,
+                    "tytul": "Rainbow Six Siege",
+                    "data_wydania": "15\/12\/01",
+                    "cena": 39.99,
+                    "id_tworcy": 22,
+                    "id_wydawcy": 23,
+                    "ilosc_sprzedanych_kopi": 70000000
+                },
+                {
+                    "id": 24,
+                    "tytul": "Tomb Raider",
+                    "data_wydania": "13\/11\/05",
+                    "cena": 39.99,
+                    "id_tworcy": 23,
+                    "id_wydawcy": 24,
+                    "ilosc_sprzedanych_kopi": 13000000
+                },
+                {
+                    "id": 25,
+                    "tytul": "Hitman 3",
+                    "data_wydania": "21\/01\/20",
+                    "cena": 59.99,
+                    "id_tworcy": 24,
+                    "id_wydawcy": 25,
+                    "ilosc_sprzedanych_kopi": 4500000
+                },
+                {
+                    "id": 26,
+                    "tytul": "Mortal Kombat 11",
+                    "data_wydania": "19\/04\/23",
+                    "cena": 59.99,
+                    "id_tworcy": 25,
+                    "id_wydawcy": 26,
+                    "ilosc_sprzedanych_kopi": 12000000
+                },
+                {
+                    "id": 27,
+                    "tytul": "Watch Dogs: Legion",
+                    "data_wydania": "20\/10\/29",
+                    "cena": 59.99,
+                    "id_tworcy": 26,
+                    "id_wydawcy": 27,
+                    "ilosc_sprzedanych_kopi": 6000000
+                },
+                {
+                    "id": 28,
+                    "tytul": "Shadow of the Tomb Raider",
+                    "data_wydania": "18\/09\/14",
+                    "cena": 49.99,
+                    "id_tworcy": 27,
+                    "id_wydawcy": 28,
+                    "ilosc_sprzedanych_kopi": 9000000
+                },
+                {
+                    "id": 29,
+                    "tytul": "Death Stranding",
+                    "data_wydania": "19\/11\/08",
+                    "cena": 59.99,
+                    "id_tworcy": 28,
+                    "id_wydawcy": 29,
+                    "ilosc_sprzedanych_kopi": 6000000
+                },
+                {
+                    "id": 30,
+                    "tytul": "Assassins Creed Valhalla",
+                    "data_wydania": "20\/11\/10",
+                    "cena": 59.99,
+                    "id_tworcy": 1,
+                    "id_wydawcy": 3,
+                    "ilosc_sprzedanych_kopi": 18000000
+                },
+                {
+                    "id": 31,
+                    "tytul": "FIFA 21",
+                    "data_wydania": "20\/10\/09",
+                    "cena": 49.99,
+                    "id_tworcy": 2,
+                    "id_wydawcy": 4,
+                    "ilosc_sprzedanych_kopi": 50000000
+                },
+                {
+                    "id": 32,
+                    "tytul": "Gears 5",
+                    "data_wydania": "19\/09\/10",
+                    "cena": 39.99,
+                    "id_tworcy": 3,
+                    "id_wydawcy": 5,
+                    "ilosc_sprzedanych_kopi": 15000000
+                },
+                {
+                    "id": 33,
+                    "tytul": "Far Cry 5",
+                    "data_wydania": "18\/03\/27",
+                    "cena": 59.99,
+                    "id_tworcy": 4,
+                    "id_wydawcy": 6,
+                    "ilosc_sprzedanych_kopi": 15000000
+                },
+                {
+                    "id": 34,
+                    "tytul": "Metro Exodus",
+                    "data_wydania": "19\/02\/15",
+                    "cena": 49.99,
+                    "id_tworcy": 5,
+                    "id_wydawcy": 7,
+                    "ilosc_sprzedanych_kopi": 10000000
+                },
+                {
+                    "id": 35,
+                    "tytul": "Dead Redemption",
+                    "data_wydania": "21\/03\/25",
+                    "cena": 69.99,
+                    "id_tworcy": 6,
+                    "id_wydawcy": 8,
+                    "ilosc_sprzedanych_kopi": 7000000
+                },
+                {
+                    "id": 36,
+                    "tytul": "Need for Speed Heat",
+                    "data_wydania": "19\/11\/08",
+                    "cena": 59.99,
+                    "id_tworcy": 7,
+                    "id_wydawcy": 9,
+                    "ilosc_sprzedanych_kopi": 8000000
+                },
+                {
+                    "id": 37,
+                    "tytul": "Kingdoms of Amalur: Re-Reckoning",
+                    "data_wydania": "20\/09\/08",
+                    "cena": 39.99,
+                    "id_tworcy": 8,
+                    "id_wydawcy": 10,
+                    "ilosc_sprzedanych_kopi": 5000000
+                },
+                {
+                    "id": 38,
+                    "tytul": "Monster Hunter: World",
+                    "data_wydania": "18\/08\/09",
+                    "cena": 59.99,
+                    "id_tworcy": 9,
+                    "id_wydawcy": 11,
+                    "ilosc_sprzedanych_kopi": 16000000
+                },
+                {
+                    "id": 39,
+                    "tytul": "Star Wars Jedi: Fallen Order",
+                    "data_wydania": "19\/11\/15",
+                    "cena": 59.99,
+                    "id_tworcy": 10,
+                    "id_wydawcy": 12,
+                    "ilosc_sprzedanych_kopi": 12000000
+                },
+                {
+                    "id": 40,
+                    "tytul": "Call of Duty: Warzone",
+                    "data_wydania": "20\/03\/10",
+                    "cena": 0,
+                    "id_tworcy": 11,
+                    "id_wydawcy": 13,
+                    "ilosc_sprzedanych_kopi": 100000000
+                },
+                {
+                    "id": 41,
+                    "tytul": "Madden NFL 21",
+                    "data_wydania": "20\/08\/28",
+                    "cena": 49.99,
+                    "id_tworcy": 12,
+                    "id_wydawcy": 14,
+                    "ilosc_sprzedanych_kopi": 6000000
+                },
+                {
+                    "id": 42,
+                    "tytul": "Watch Dogs 2",
+                    "data_wydania": "16\/11\/15",
+                    "cena": 39.99,
+                    "id_tworcy": 13,
+                    "id_wydawcy": 15,
+                    "ilosc_sprzedanych_kopi": 11000000
+                },
+                {
+                    "id": 43,
+                    "tytul": "Borderlands 3",
+                    "data_wydania": "19\/09\/13",
+                    "cena": 59.99,
+                    "id_tworcy": 14,
+                    "id_wydawcy": 16,
+                    "ilosc_sprzedanych_kopi": 14000000
+                },
+                {
+                    "id": 44,
+                    "tytul": "Sekiro: Shadows Die Twice",
+                    "data_wydania": "19\/03\/22",
+                    "cena": 59.99,
+                    "id_tworcy": 15,
+                    "id_wydawcy": 17,
+                    "ilosc_sprzedanych_kopi": 8000000
+                },
+                {
+                    "id": 45,
+                    "tytul": "The Outer Worlds",
+                    "data_wydania": "19\/10\/25",
+                    "cena": 59.99,
+                    "id_tworcy": 16,
+                    "id_wydawcy": 18,
+                    "ilosc_sprzedanych_kopi": 5000000
+                },
+                {
+                    "id": 46,
+                    "tytul": "Control",
+                    "data_wydania": "19\/08\/27",
+                    "cena": 59.99,
+                    "id_tworcy": 17,
+                    "id_wydawcy": 19,
+                    "ilosc_sprzedanych_kopi": 4000000
+                },
+                {
+                    "id": 47,
+                    "tytul": "CyberConnect2: Naruto",
+                    "data_wydania": "17\/10\/27",
+                    "cena": 49.99,
+                    "id_tworcy": 18,
+                    "id_wydawcy": 20,
+                    "ilosc_sprzedanych_kopi": 7000000
+                },
+                {
+                    "id": 48,
+                    "tytul": "Tales of Vesperia",
+                    "data_wydania": "08\/08\/06",
+                    "cena": 39.99,
+                    "id_tworcy": 19,
+                    "id_wydawcy": 21,
+                    "ilosc_sprzedanych_kopi": 6000000
+                },
+                {
+                    "id": 49,
+                    "tytul": "Dragon Age: Inquisition",
+                    "data_wydania": "14\/11\/18",
+                    "cena": 59.99,
+                    "id_tworcy": 20,
+                    "id_wydawcy": 22,
+                    "ilosc_sprzedanych_kopi": 13000000
+                }
+            ]
+        }
+    ]
+}

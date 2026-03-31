@@ -1,0 +1,41 @@
+{
+    "results":[
+        {
+            "columns":[
+                {
+                    "name":"ID","type":"NUMBER"
+                },{
+                    "name":"NAZWA","type":"VARCHAR2"
+                }]
+            ,"items":[
+{"id":1,"nazwa":"Action-Adventure"}
+,{"id":2,"nazwa":"First-Person Shooter"}
+,{"id":3,"nazwa":"Role-Playing3231"}
+,{"id":4,"nazwa":"Strategy"}
+,{"id":5,"nazwa":"Simulation"}
+,{"id":6,"nazwa":"Sports"}
+,{"id":7,"nazwa":"Fighting"}
+,{"id":8,"nazwa":"Platformer"}
+,{"id":9,"nazwa":"Racing"}
+,{"id":10,"nazwa":"Survival"}
+,{"id":11,"nazwa":"Puzzle"}
+,{"id":12,"nazwa":"Horror"}
+,{"id":13,"nazwa":"Open World"}
+,{"id":14,"nazwa":"MOBA"}
+,{"id":15,"nazwa":"Battle Royale"}
+,{"id":16,"nazwa":"Stealth"}
+,{"id":17,"nazwa":"Multiplayer"}
+,{"id":18,"nazwa":"MMORPG"}
+,{"id":19,"nazwa":"RTS"}
+,{"id":20,"nazwa":"Visual Novel"}
+,{"id":21,"nazwa":"Music"}
+,{"id":22,"nazwa":"Tactical"}
+,{"id":23,"nazwa":"Idle"}
+,{"id":24,"nazwa":"Adventure"}
+,{"id":25,"nazwa":"Sandbox"}
+,{"id":26,"nazwa":"MMOFPS"}
+,{"id":27,"nazwa":"Card"}
+,{"id":28,"nazwa":"Augmented Reality"}
+,{"id":29,"nazwa":"Virtual Reality"}
+,{"id":30,"nazwa":"Indie"}
+]}]}

@@ -1,0 +1,25 @@
+﻿<Window x:Class="GameLibraryDBClient.MainMenu.Pages.SubPages.GenreModification"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLibraryDBClient.MainMenu.Pages.SubPages"
+        mc:Ignorable="d"
+        Title="GenreModification" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="ID"/>
+        <TextBox x:Name="ID" IsReadOnly="true" />
+
+        <Label Content="Nazwa"/>
+        <TextBox x:Name="Name" />
+        <TextBlock/>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="EditBTN" Width="250" Click="EditBTN_Click">Modyfikuj</Button>
+            <Button x:Name="ShowGamesBTN" Width="250" Click="ShowGamesBTN_Click">Pokaz Gry</Button>
+            <Button x:Name="DeleteBTN" Width="250" Click="DeleteBTN_Click" >USUŃ</Button>
+
+        </StackPanel>
+        <TextBlock/>
+        <Button x:Name="CloseBTN" Width="150" Click="CloseBTN_Click" >Zamknij</Button>
+    </StackPanel>
+</Window>

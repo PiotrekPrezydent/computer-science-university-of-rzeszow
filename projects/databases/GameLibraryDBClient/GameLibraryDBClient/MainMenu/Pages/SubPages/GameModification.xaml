@@ -1,0 +1,55 @@
+﻿<Window x:Class="GameLibraryDBClient.MainMenu.Pages.SubPages.GameModification"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLibraryDBClient.MainMenu.Pages.SubPages"
+        mc:Ignorable="d"
+        Title="GameModification" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="ID"/>
+        <TextBox x:Name="ID" IsReadOnly="true" />
+        
+        <Label Content="Nazwa"/>
+        <TextBox x:Name="Name" />
+
+        <Label Content="DataWydania"/>
+        <TextBox x:Name="ReleaseDate"/>
+
+        <Label Content="Cena"/>
+        <TextBox x:Name="Price"/>
+
+        <Label Content="ID Autora"/>
+        <TextBox x:Name="AuthorID"/>
+
+        <Label Content="ID Wydawcy"/>
+        <TextBox x:Name="PublisherID"/>
+
+        <Label Content="Ilość sprzedanych kopi"/>
+        <TextBox x:Name="SoldCopies"/>
+
+        <TextBlock/>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="EditBTN" Width="150" Click="EditBTN_Click">Modyfikuj</Button>
+            <Button x:Name="ShowReviewsBTN" Width="150" Click="ShowReviewsBTN_Click">Pokaz Recenzje</Button>
+            <Button x:Name="ShowGenresBTN" Width="150" Click="ShowGenresBTN_Click" >Pokaz Gatunki</Button>
+            <Button x:Name="ChangePriceBTN" Width="200" Click="ChangePriceBTN_Click" >Zmień cene w zależności od sprzedaży</Button>
+            <Button x:Name="DeleteBTN" Width="150"  Click="DeleteBTN_Click">USUŃ</Button>
+        </StackPanel>
+        <TextBlock/>
+        <Button x:Name="CancelBTN" Width="800" Click="CancelBTN_Click">Zamnkinj</Button>
+        <Popup Name="ChangePopup" Placement="Mouse" StaysOpen="False" VerticalOffset="10" HorizontalOffset="10">
+            <Border Background="LightYellow" BorderBrush="Black" BorderThickness="1" Padding="10">
+                <StackPanel>
+                    <Label Content="ILość Sprzedanych kopi w miesiącu: " />
+                    <TextBox x:Name="MonthlySellsBox"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="PopupYesBTN" Click="PopupYesBTN_Click">Zatwierdź</Button>
+                        <Button x:Name="PopupNoBTN" Click="PopupNoBTN_Click">Zamknij</Button>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+    </StackPanel>
+
+</Window>

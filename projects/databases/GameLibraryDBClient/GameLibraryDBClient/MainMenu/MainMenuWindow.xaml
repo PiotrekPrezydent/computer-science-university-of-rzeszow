@@ -1,0 +1,36 @@
+﻿<Window x:Class="GameLibraryDBClient.MainMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLibraryDBClient"
+        mc:Ignorable="d"
+        Title="MainMenuWindow" Height="550" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Name="HEADER" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock
+                   x:Name="HeaderText"
+                   Text="Menu głowne"
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   Grid.Column="0" 
+                   FontSize="16"/>
+        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="80*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <Button Margin="0,20,0,20" Height="40" Name="GamesBTN" Click="GamesBTN_Click">Gry</Button>
+                <Button Margin="0,20,0,20" Height="40" Name="GenreBTN" Click="GenreBTN_Click">Gatunki</Button>
+                <Button Margin="0,20,0,20" Height="40" Name="ReviewsBTN" Click="ReviewsBTN_Click">Recenzje</Button>
+                <Button Margin="0,20,0,20" Height="40" Name="CreatorsBTN" Click="CreatorsBTN_Click">Twórcy</Button>
+                <Button Margin="0,20,0,20" Height="40" Name="PublisherBTN" Click="PublisherBTN_Click">Wydawcy</Button>
+                <Button Margin="0,20,0,20" Height="40" Name="GamesGenreBTN" Click="GamesGenreBTN_Click">Gry-Gatunki</Button>
+            </StackPanel>
+            <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
+        </Grid>
+
+    </StackPanel>
+</Window>

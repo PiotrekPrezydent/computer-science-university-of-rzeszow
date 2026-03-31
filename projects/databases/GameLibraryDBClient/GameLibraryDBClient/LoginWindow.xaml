@@ -1,0 +1,31 @@
+﻿<Window x:Class="GameLibraryDBClient.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLibraryDBClient"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel>
+            <Label FontSize="20" Content="DB IP: "/>
+            <TextBox x:Name="IP" Height="20" Text="192.168.55.9"/>
+            <TextBlock/>
+            <Label FontSize="20" Content="DB PORT: "/>
+            <TextBox x:Name="Port" Height="20" Text="1521"/>
+            <TextBlock/>
+            <Label FontSize="20" Content="SERVICE NAME: "/>
+            <TextBox x:Name="Service" Height="20" Text="free"/>
+            <TextBlock/>
+            <Label FontSize="20" Content="LOGIN: "/>
+            <TextBox x:Name="Login" Height="20" Text="&quot;C##student&quot;"/>
+            <TextBlock/>
+            <Label FontSize="20" Content="PASSWORD: "/>
+            <TextBox x:Name="Password" Height="20" Text="oracle"/>
+            <TextBlock/>
+            <Button x:Name="ConnectBTN" Click="ConnectBTN_Click">Connect</Button>
+            <TextBlock x:Name="ConnectionStatus"/>
+        </StackPanel>
+    </StackPanel>
+
+</Window>

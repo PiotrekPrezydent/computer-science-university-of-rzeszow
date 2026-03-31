@@ -1,0 +1,38 @@
+﻿<Window x:Class="GameLibraryDBClient.MainMenu.Pages.SubPages.PublisherModification"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLibraryDBClient.MainMenu.Pages.SubPages"
+        mc:Ignorable="d"
+        Title="PublisherModification" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="ID"/>
+        <TextBox x:Name="ID" IsReadOnly="true" />
+
+        <Label Content="Nazwa"/>
+        <TextBox x:Name="Name" />
+
+        <Label Content="MarzaProcent:"/>
+        <TextBox x:Name="Margin" />
+        <TextBlock/>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="EditBTN" Width="250" Click="EditBTN_Click">Modyfikuj</Button>
+            <Button x:Name="ShowGamesBTN" Width="250" Click="ShowGamesBTN_Click">Pokaz Gry</Button>
+            <Button x:Name="ShowGenresBTN" Width="250" Click="ShowGenresBTN_Click">Pokaz Gatunki</Button>
+
+        </StackPanel>
+        <TextBlock/>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="ShowBestSellGamesBTN" Width="200" Click="ShowBestSellGamesBTN_Click">Pokaz Najlepiej zarabiajaca gre</Button>
+            <Button x:Name="ShowBestRatedGameBTN" Width="200" Click="ShowBestRatedGameBTN_Click">Pokaz najlepiej oceniana gre</Button>
+            <Button x:Name="ShowBestSellGenreBTN" Width="200" Click="ShowBestSellGenreBTN_Click">Pokaz Najlepiej zarabiajacy gatunek</Button>
+            <Button x:Name="ShowBestRatedGenreBTN" Width="200" Click="ShowBestRatedGenreBTN_Click">Pokaz najlepiej oceniany gatunek</Button>
+
+        </StackPanel>
+        <TextBlock/>
+        <Button x:Name="DeleteBTN" Width="150" Click="DeleteBTN_Click">USUŃ</Button>
+        <TextBlock/>
+        <Button x:Name="CloseBTN" Width="150" Click="CloseBTN_Click">Zamknij</Button>
+    </StackPanel>
+</Window>
